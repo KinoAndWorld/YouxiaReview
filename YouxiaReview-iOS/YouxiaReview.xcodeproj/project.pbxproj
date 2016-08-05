@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3801EBD11D519B910062AED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBD01D519B910062AED1 /* main.m */; };
+		3801EBD41D519B910062AED1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBD31D519B910062AED1 /* AppDelegate.m */; };
+		3801EBDC1D519B910062AED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3801EBDB1D519B910062AED1 /* Assets.xcassets */; };
+		3801EBDF1D519B910062AED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3801EBDD1D519B910062AED1 /* LaunchScreen.storyboard */; };
+		3801EBE81D52E8D80062AED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3801EBE61D52E8D80062AED1 /* Main.storyboard */; };
+		3801EBEB1D52ED1A0062AED1 /* ReviewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBEA1D52ED1A0062AED1 /* ReviewListViewController.m */; };
+		3801EBF21D52EF5F0062AED1 /* ReviewListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBF11D52EF5F0062AED1 /* ReviewListView.m */; };
+		3801EBF51D52F4CB0062AED1 /* ReviewSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBF41D52F4CB0062AED1 /* ReviewSummaryCell.m */; };
+		3801EC001D52F78E0062AED1 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBF81D52F78E0062AED1 /* APIManager.m */; };
+		3801EC021D52F78E0062AED1 /* BaseApiEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBFC1D52F78E0062AED1 /* BaseApiEngine.m */; };
+		3801EC031D52F78E0062AED1 /* DataTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EBFE1D52F78E0062AED1 /* DataTranslate.m */; };
+		3801EC061D52F7C80062AED1 /* GameReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EC051D52F7C80062AED1 /* GameReview.m */; };
+		3801EC091D52F8B10062AED1 /* ReviewApiEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EC081D52F8B10062AED1 /* ReviewApiEngine.m */; };
+		3801EC0E1D52FC7B0062AED1 /* KOProgressiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EC0B1D52FC7B0062AED1 /* KOProgressiveView.m */; };
+		3801EC0F1D52FC7B0062AED1 /* SplitLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EC0D1D52FC7B0062AED1 /* SplitLine.m */; };
+		3801EC131D52FD400062AED1 /* AppElementConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801EC121D52FD400062AED1 /* AppElementConfig.m */; };
+		79569846C9F9C05014E9EACF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF6783BFB69BA339C740E02 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FF6783BFB69BA339C740E02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		201F8EABFD01378B204B042D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3801EBCC1D519B910062AED1 /* YouxiaReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouxiaReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3801EBD01D519B910062AED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3801EBD21D519B910062AED1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3801EBD31D519B910062AED1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3801EBDB1D519B910062AED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3801EBDE1D519B910062AED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3801EBE01D519B910062AED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3801EBE71D52E8D80062AED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3801EBE91D52ED1A0062AED1 /* ReviewListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewListViewController.h; sourceTree = "<group>"; };
+		3801EBEA1D52ED1A0062AED1 /* ReviewListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewListViewController.m; sourceTree = "<group>"; };
+		3801EBF01D52EF5F0062AED1 /* ReviewListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewListView.h; sourceTree = "<group>"; };
+		3801EBF11D52EF5F0062AED1 /* ReviewListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewListView.m; sourceTree = "<group>"; };
+		3801EBF31D52F4CB0062AED1 /* ReviewSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewSummaryCell.h; sourceTree = "<group>"; };
+		3801EBF41D52F4CB0062AED1 /* ReviewSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewSummaryCell.m; sourceTree = "<group>"; };
+		3801EBF71D52F78E0062AED1 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		3801EBF81D52F78E0062AED1 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		3801EBFB1D52F78E0062AED1 /* BaseApiEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApiEngine.h; sourceTree = "<group>"; };
+		3801EBFC1D52F78E0062AED1 /* BaseApiEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApiEngine.m; sourceTree = "<group>"; };
+		3801EBFD1D52F78E0062AED1 /* DataTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTranslate.h; sourceTree = "<group>"; };
+		3801EBFE1D52F78E0062AED1 /* DataTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTranslate.m; sourceTree = "<group>"; };
+		3801EBFF1D52F78E0062AED1 /* NetworkConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConsts.h; sourceTree = "<group>"; };
+		3801EC041D52F7C80062AED1 /* GameReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameReview.h; sourceTree = "<group>"; };
+		3801EC051D52F7C80062AED1 /* GameReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameReview.m; sourceTree = "<group>"; };
+		3801EC071D52F8B10062AED1 /* ReviewApiEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewApiEngine.h; sourceTree = "<group>"; };
+		3801EC081D52F8B10062AED1 /* ReviewApiEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewApiEngine.m; sourceTree = "<group>"; };
+		3801EC0A1D52FC7B0062AED1 /* KOProgressiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOProgressiveView.h; sourceTree = "<group>"; };
+		3801EC0B1D52FC7B0062AED1 /* KOProgressiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOProgressiveView.m; sourceTree = "<group>"; };
+		3801EC0C1D52FC7B0062AED1 /* SplitLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitLine.h; sourceTree = "<group>"; };
+		3801EC0D1D52FC7B0062AED1 /* SplitLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitLine.m; sourceTree = "<group>"; };
+		3801EC111D52FD400062AED1 /* AppElementConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppElementConfig.h; sourceTree = "<group>"; };
+		3801EC121D52FD400062AED1 /* AppElementConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppElementConfig.m; sourceTree = "<group>"; };
+		9F5F940CC1B30DD967238B7A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3801EBC91D519B910062AED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79569846C9F9C05014E9EACF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3801EBC31D519B910062AED1 = {
+			isa = PBXGroup;
+			children = (
+				3801EBCE1D519B910062AED1 /* YouxiaReview */,
+				3801EBCD1D519B910062AED1 /* Products */,
+				C0E27F02C64464DF938678AA /* Pods */,
+				EAE72F043B4F7DC0AC7D029C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3801EBCD1D519B910062AED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBCC1D519B910062AED1 /* YouxiaReview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3801EBCE1D519B910062AED1 /* YouxiaReview */ = {
+			isa = PBXGroup;
+			children = (
+				3801EC101D52FD220062AED1 /* Config */,
+				3801EBF61D52F6DA0062AED1 /* Network */,
+				3801EBED1D52EEEE0062AED1 /* Model */,
+				3801EBEC1D52EEE20062AED1 /* Scene */,
+				3801EBD21D519B910062AED1 /* AppDelegate.h */,
+				3801EBD31D519B910062AED1 /* AppDelegate.m */,
+				3801EBE61D52E8D80062AED1 /* Main.storyboard */,
+				3801EBDB1D519B910062AED1 /* Assets.xcassets */,
+				3801EBDD1D519B910062AED1 /* LaunchScreen.storyboard */,
+				3801EBE01D519B910062AED1 /* Info.plist */,
+				3801EBCF1D519B910062AED1 /* Supporting Files */,
+			);
+			path = YouxiaReview;
+			sourceTree = "<group>";
+		};
+		3801EBCF1D519B910062AED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBD01D519B910062AED1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3801EBEC1D52EEE20062AED1 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBEE1D52EF170062AED1 /* Review */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		3801EBED1D52EEEE0062AED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3801EC041D52F7C80062AED1 /* GameReview.h */,
+				3801EC051D52F7C80062AED1 /* GameReview.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3801EBEE1D52EF170062AED1 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBEF1D52EF250062AED1 /* View */,
+				3801EBE91D52ED1A0062AED1 /* ReviewListViewController.h */,
+				3801EBEA1D52ED1A0062AED1 /* ReviewListViewController.m */,
+			);
+			name = Review;
+			sourceTree = "<group>";
+		};
+		3801EBEF1D52EF250062AED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBF01D52EF5F0062AED1 /* ReviewListView.h */,
+				3801EBF11D52EF5F0062AED1 /* ReviewListView.m */,
+				3801EBF31D52F4CB0062AED1 /* ReviewSummaryCell.h */,
+				3801EBF41D52F4CB0062AED1 /* ReviewSummaryCell.m */,
+				3801EC0A1D52FC7B0062AED1 /* KOProgressiveView.h */,
+				3801EC0B1D52FC7B0062AED1 /* KOProgressiveView.m */,
+				3801EC0C1D52FC7B0062AED1 /* SplitLine.h */,
+				3801EC0D1D52FC7B0062AED1 /* SplitLine.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3801EBF61D52F6DA0062AED1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3801EBF71D52F78E0062AED1 /* APIManager.h */,
+				3801EBF81D52F78E0062AED1 /* APIManager.m */,
+				3801EBFB1D52F78E0062AED1 /* BaseApiEngine.h */,
+				3801EBFC1D52F78E0062AED1 /* BaseApiEngine.m */,
+				3801EBFD1D52F78E0062AED1 /* DataTranslate.h */,
+				3801EBFE1D52F78E0062AED1 /* DataTranslate.m */,
+				3801EBFF1D52F78E0062AED1 /* NetworkConsts.h */,
+				3801EC071D52F8B10062AED1 /* ReviewApiEngine.h */,
+				3801EC081D52F8B10062AED1 /* ReviewApiEngine.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		3801EC101D52FD220062AED1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3801EC111D52FD400062AED1 /* AppElementConfig.h */,
+				3801EC121D52FD400062AED1 /* AppElementConfig.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		C0E27F02C64464DF938678AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F940CC1B30DD967238B7A /* Pods.debug.xcconfig */,
+				201F8EABFD01378B204B042D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAE72F043B4F7DC0AC7D029C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6783BFB69BA339C740E02 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3801EBCB1D519B910062AED1 /* YouxiaReview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3801EBE31D519B910062AED1 /* Build configuration list for PBXNativeTarget "YouxiaReview" */;
+			buildPhases = (
+				A5A485A51E126823BE8D08A0 /* Check Pods Manifest.lock */,
+				3801EBC81D519B910062AED1 /* Sources */,
+				3801EBC91D519B910062AED1 /* Frameworks */,
+				3801EBCA1D519B910062AED1 /* Resources */,
+				64AEA555C16CD18F3CEBF5EA /* Embed Pods Frameworks */,
+				30F548790D29A6ED9B126358 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouxiaReview;
+			productName = YouxiaReview;
+			productReference = 3801EBCC1D519B910062AED1 /* YouxiaReview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3801EBC41D519B910062AED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kino;
+				TargetAttributes = {
+					3801EBCB1D519B910062AED1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3801EBC71D519B910062AED1 /* Build configuration list for PBXProject "YouxiaReview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3801EBC31D519B910062AED1;
+			productRefGroup = 3801EBCD1D519B910062AED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3801EBCB1D519B910062AED1 /* YouxiaReview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3801EBCA1D519B910062AED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801EBE81D52E8D80062AED1 /* Main.storyboard in Resources */,
+				3801EBDF1D519B910062AED1 /* LaunchScreen.storyboard in Resources */,
+				3801EBDC1D519B910062AED1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F548790D29A6ED9B126358 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AEA555C16CD18F3CEBF5EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A485A51E126823BE8D08A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3801EBC81D519B910062AED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801EBF21D52EF5F0062AED1 /* ReviewListView.m in Sources */,
+				3801EBD41D519B910062AED1 /* AppDelegate.m in Sources */,
+				3801EC001D52F78E0062AED1 /* APIManager.m in Sources */,
+				3801EBD11D519B910062AED1 /* main.m in Sources */,
+				3801EC0E1D52FC7B0062AED1 /* KOProgressiveView.m in Sources */,
+				3801EC061D52F7C80062AED1 /* GameReview.m in Sources */,
+				3801EC021D52F78E0062AED1 /* BaseApiEngine.m in Sources */,
+				3801EC031D52F78E0062AED1 /* DataTranslate.m in Sources */,
+				3801EBEB1D52ED1A0062AED1 /* ReviewListViewController.m in Sources */,
+				3801EC131D52FD400062AED1 /* AppElementConfig.m in Sources */,
+				3801EC091D52F8B10062AED1 /* ReviewApiEngine.m in Sources */,
+				3801EC0F1D52FC7B0062AED1 /* SplitLine.m in Sources */,
+				3801EBF51D52F4CB0062AED1 /* ReviewSummaryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3801EBDD1D519B910062AED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3801EBDE1D519B910062AED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3801EBE61D52E8D80062AED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3801EBE71D52E8D80062AED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3801EBE11D519B910062AED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3801EBE21D519B910062AED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3801EBE41D519B910062AED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5F940CC1B30DD967238B7A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouxiaReview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kino.YouxiaReview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3801EBE51D519B910062AED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201F8EABFD01378B204B042D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouxiaReview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kino.YouxiaReview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3801EBC71D519B910062AED1 /* Build configuration list for PBXProject "YouxiaReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801EBE11D519B910062AED1 /* Debug */,
+				3801EBE21D519B910062AED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3801EBE31D519B910062AED1 /* Build configuration list for PBXNativeTarget "YouxiaReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801EBE41D519B910062AED1 /* Debug */,
+				3801EBE51D519B910062AED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3801EBC41D519B910062AED1 /* Project object */;
+}
