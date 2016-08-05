@@ -8,3 +8,4 @@
 
 `YouxiaReview-iOS`	      iOS客户端
 
+文章链接：[从零开始开发一个App](http://www.jianshu.com/p/022636f04bdc)
